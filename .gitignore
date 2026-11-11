@@ -1,0 +1,45 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+service-account*.json
+*credentials*.json
+*-secret*.json
+
+# dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# test output
+tests/shots/
+playwright-report/
+test-results/
+
+# temporary and editor files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# personal data exported from the app (backups contain your training and body records)
+*健身課表紀錄*.csv
+*健身課表備份*.json
+backup*.json

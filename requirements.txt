@@ -1,0 +1,2 @@
+# only needed to run the tests in tests/; the app itself has no dependencies
+playwright==1.56.0
